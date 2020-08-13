@@ -1,9 +1,43 @@
 body {
   background-color: #eceef1;
+  font-family: Arial, sans-serif;
 }
 
 header {
   text-align: end;
+  padding-top: 3px ;
+  padding-right: 30px;
+  
+}
+
+.header-info{
+  display: inline-block;
+  margin-right: 17px;
+  font-size: 12px;
+  line-height: 17px;
+}
+
+.header2 a {
+  text-decoration: none;
+  color: #0077C5;
+}
+
+.btn {
+  float: right;
+}
+
+.sign-in {
+  width: 102px;
+  height: 34px;
+  background-color: #0077C5;
+  color: #ffffff;
+  border-radius: 4px;
+  font-size: 13.5px;
+  border: solid 1px #000000;
+} 
+
+.sign-in i {
+  margin-right: 5px;
 }
 
 form,
