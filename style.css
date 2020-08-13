@@ -1,11 +1,15 @@
 body {
   background-color: #eceef1;
   font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 header {
   text-align: end;
-  padding-top: 3px;
+  padding-top: 16px;
+    padding-right: 23px;
 }
 
 .header-info {
