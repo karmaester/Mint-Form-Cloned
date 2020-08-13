@@ -16,7 +16,9 @@ header {
   line-height: 17px;
 }
 
-.header2 a {
+
+
+.link {
   text-decoration: none;
   color: #0077c5;
 }
@@ -38,11 +40,25 @@ header {
 .sign-in i {
   margin-right: 5px;
 }
-img {
-  width: 40px;
-  height: 40px;
+
+/* Logos */
+.brand {
+  text-align: center;
 }
 
+.logos img {
+  width: 40px;
+  height: 40px;
+  margin: 20px 20px;
+}
+.main-logo img{
+  width: 123px;
+  height: 36px;
+  margin-top: 45px;
+}
+
+
+/* Form Section */
 form,
 section {
   display: grid;
@@ -58,11 +74,16 @@ input {
   width: 85%;
 }
 
-h2 {
+.form-title {
   text-align: center;
-  font-size: xx-large;
+  font-size: 24px;
+  color: #4c4c4c;
+  font-weight: 400;
 }
 
+.text-form { 
+  text-align: center;
+}
 footer {
   display: grid;
   margin: auto;
