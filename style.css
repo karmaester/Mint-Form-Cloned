@@ -5,12 +5,11 @@ body {
 
 header {
   text-align: end;
-  padding-top: 3px ;
+  padding-top: 3px;
   padding-right: 30px;
-  
 }
 
-.header-info{
+.header-info {
   display: inline-block;
   margin-right: 17px;
   font-size: 12px;
@@ -19,7 +18,7 @@ header {
 
 .header2 a {
   text-decoration: none;
-  color: #0077C5;
+  color: #0077c5;
 }
 
 .btn {
@@ -29,15 +28,19 @@ header {
 .sign-in {
   width: 102px;
   height: 34px;
-  background-color: #0077C5;
+  background-color: #0077c5;
   color: #ffffff;
   border-radius: 4px;
   font-size: 13.5px;
   border: solid 1px #000000;
-} 
+}
 
 .sign-in i {
   margin-right: 5px;
+}
+img {
+  width: 40px;
+  height: 40px;
 }
 
 form,
@@ -54,7 +57,6 @@ form {
 input {
   width: 85%;
 }
-
 
 h2 {
   text-align: center;
