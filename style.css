@@ -6,7 +6,6 @@ body {
 header {
   text-align: end;
   padding-top: 3px;
-  padding-right: 30px;
 }
 
 .header-info {
@@ -15,8 +14,6 @@ header {
   font-size: 12px;
   line-height: 17px;
 }
-
-
 
 .link {
   text-decoration: none;
@@ -47,16 +44,23 @@ header {
 }
 
 .logos img {
-  width: 40px;
-  height: 40px;
-  margin: 20px 20px;
+  width: 25px;
+  height: 25px;
 }
-.main-logo img{
+
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 20px 20px;
+  font-size: 18px;
+  color: rgb(160, 160, 160);
+}
+.main-logo img {
   width: 123px;
   height: 36px;
   margin-top: 45px;
 }
-
 
 /* Form Section */
 form,
@@ -81,7 +85,7 @@ input {
   font-weight: 400;
 }
 
-.text-form { 
+.text-form {
   text-align: center;
 }
 footer {
