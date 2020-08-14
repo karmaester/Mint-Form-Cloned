@@ -32,25 +32,26 @@ header {
   width: 102px;
   height: 34px;
   background-color: #0077c5;
-  color: #ffffff;
+  color: #fff;
   border-radius: 4px;
   font-size: 13.5px;
-  border: solid 1px #000000;
+  border: solid 1px #000;
 }
 
 .sub {
   width: 100%;
   height: 46px;
   background-color: #0077c5;
-  color: #ffffff;
+  color: #fff;
   border-radius: 4px;
   font-size: 17px;
-  border: solid 1px #000000;
+  border: solid 1px #000;
 }
 
 .sub i {
   margin-right: 11px;
 }
+
 .sign-in i {
   margin-right: 5px;
 }
@@ -77,6 +78,7 @@ header {
   font-size: 18px;
   color: rgb(160, 160, 160);
 }
+
 .main-logo img {
   width: 123px;
   height: 36px;
@@ -92,6 +94,7 @@ form {
   padding: 0% 3% 10% 3%;
   border: 1px solid #000;
 }
+
 .section-form {
   display: block;
   width: 700px;
@@ -126,6 +129,7 @@ input:active,
 .text-form {
   text-align: center;
 }
+
 label {
   margin-bottom: 38px;
 }
@@ -134,6 +138,7 @@ label {
   font-size: 9px;
   margin-top: -34px;
 }
+
 .label-password {
   position: relative;
 }
@@ -141,8 +146,6 @@ label {
 .fa-lock-open {
   position: absolute;
   color: rgb(196, 195, 195);
-  top: 21px;
-  right: 15px;
   top: 53%;
   right: 4%;
   font-size: 23px;
