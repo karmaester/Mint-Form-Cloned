@@ -49,7 +49,7 @@ header {
 }
 
 .sub i {
-  margin-right: 11px
+  margin-right: 11px;
 }
 .sign-in i {
   margin-right: 5px;
@@ -105,7 +105,15 @@ input {
   margin-top: 10px;
   height: 34px;
   border-style: double;
+}
 
+input:active,
+:focus {
+  border-color: rgb(95, 151, 255);
+  -webkit-box-shadow: 1px -1px 31px -6px rgba(63, 128, 242, 1);
+  -moz-box-shadow: 1px -1px 31px -6px rgba(63, 128, 242, 1);
+  box-shadow: 1px -1px 31px -6px rgba(63, 128, 242, 1);
+  outline: none;
 }
 
 .form-title {
@@ -119,7 +127,12 @@ input {
   text-align: center;
 }
 label {
-  margin-bottom:38px ;
+  margin-bottom: 38px;
+}
+
+.conditions {
+  font-size: 9px;
+  margin-top: -34px;
 }
 .label-password {
   position: relative;
@@ -130,10 +143,9 @@ label {
   color: rgb(196, 195, 195);
   top: 21px;
   right: 15px;
-  top: 39%;
-  right: 8%;
-  font-size: 20px;
-  
+  top: 53%;
+  right: 4%;
+  font-size: 23px;
 }
 
 .bottom {
@@ -148,11 +160,13 @@ label {
 
 .last {
   background-color: #eceef1;
-  margin-bottom: -70px;
+  margin-bottom: -80px;
   margin-left: -21px;
   margin-right: -21px;
   text-align: center;
   font-size: 10px;
+  height: 49px;
+  padding-top: 21px;
 }
 
 footer {
