@@ -44,10 +44,13 @@ header {
   background-color: #0077c5;
   color: #ffffff;
   border-radius: 4px;
-  font-size: 19.5px;
+  font-size: 17px;
   border: solid 1px #000000;
 }
 
+.sub i {
+  margin-right: 11px
+}
 .sign-in i {
   margin-right: 5px;
 }
@@ -84,10 +87,10 @@ header {
 form {
   display: grid;
   width: 350px;
-  height: 670px;
   background-color: white;
   margin: auto;
   padding: 0% 3% 10% 3%;
+  border: 1px solid #000;
 }
 .section-form {
   display: block;
@@ -97,6 +100,12 @@ form {
 
 input {
   width: 97%;
+  border-radius: 3px;
+  border-color: #b8b5b54f;
+  margin-top: 10px;
+  height: 34px;
+  border-style: double;
+
 }
 
 .form-title {
@@ -109,13 +118,41 @@ input {
 .text-form {
   text-align: center;
 }
+label {
+  margin-bottom:38px ;
+}
+.label-password {
+  position: relative;
+}
+
+.fa-lock-open {
+  position: absolute;
+  color: rgb(196, 195, 195);
+  top: 21px;
+  right: 15px;
+  top: 39%;
+  right: 8%;
+  font-size: 20px;
+  
+}
 
 .bottom {
   text-align: center;
   color: #757575;
   font-size: 15px;
   font-style: italic;
-  line-height: 19px;
+  line-height: 25px;
+  width: 84%;
+  margin: 31px auto;
+}
+
+.last {
+  background-color: #eceef1;
+  margin-bottom: -70px;
+  margin-left: -21px;
+  margin-right: -21px;
+  text-align: center;
+  font-size: 10px;
 }
 
 footer {

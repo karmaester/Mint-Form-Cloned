@@ -45,10 +45,10 @@
             >Learn more</a
           >
         </p>
-        <label> Email Address <br /><input type="email" /> </label>
-        <label> Phone (recommended) <br /><input type="email" /> </label>
-        <label>
-          Password <br /><input type="password" /><i
+        <label> Email Address <br /><input type="email" required/> </label>
+        <label> Phone (recommended) <br /><input type="tel" required/> </label>
+        <label class="label-password">
+          Password <br /><input type="password" required/><i
             class="fas fa-lock-open"
           ></i>
         </label>
@@ -57,9 +57,12 @@
           <i class="fas fa-lock"></i>Create Account
         </button>
         <p class="bottom">
-          By clicking Create account, you agree to our Terms and have read and
-          acknowledge our Privacy Statement.
+          By clicking Create account, you agree to our <a class="link" href="#">Terms</a> and have read and
+          acknowledge our <a class="link" href="#">Privacy Statement.</a> 
         </p>
+        <div class="last">
+          <p>Invisible reCAPTCHA by Google Privacy Policy and Terms of Use.</p>
+        </div>
       </form>
     </section>
     <footer>
