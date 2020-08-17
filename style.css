@@ -1,0 +1,183 @@
+body {
+  background-color: #eceef1;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  text-align: end;
+  padding-top: 16px;
+  padding-right: 23px;
+}
+
+.header-info {
+  display: inline-block;
+  margin-right: 17px;
+  font-size: 12px;
+  line-height: 17px;
+}
+
+.link {
+  text-decoration: none;
+  color: #0077c5;
+}
+
+.btn {
+  float: right;
+}
+
+.sign-in {
+  width: 102px;
+  height: 34px;
+  background-color: #0077c5;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 13.5px;
+  border: solid 1px #000;
+}
+
+.sub {
+  width: 100%;
+  height: 46px;
+  background-color: #0077c5;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 17px;
+  border: solid 1px #000;
+}
+
+.sub i {
+  margin-right: 11px;
+}
+
+.sign-in i {
+  margin-right: 5px;
+}
+
+/* Logos */
+.brand {
+  text-align: center;
+  padding: 3% 6% 0% 6%;
+  width: 350px;
+  display: grid;
+  margin: auto;
+}
+
+.logos img {
+  width: 25px;
+  height: 25px;
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 20px 20px;
+  font-size: 18px;
+  color: rgb(160, 160, 160);
+}
+
+.main-logo img {
+  width: 123px;
+  height: 36px;
+  margin-top: 45px;
+}
+
+/* Form Section */
+form {
+  display: grid;
+  width: 350px;
+  background-color: white;
+  margin: auto;
+  padding: 0% 3% 10% 3%;
+  border: 1px solid #000;
+}
+
+.section-form {
+  display: block;
+  width: 700px;
+  margin: auto;
+}
+
+input {
+  width: 97%;
+  border-radius: 3px;
+  border-color: #b8b5b54f;
+  margin-top: 10px;
+  height: 34px;
+  border-style: double;
+}
+
+input:active,
+:focus {
+  border-color: rgb(95, 151, 255);
+  -webkit-box-shadow: 1px -1px 31px -6px rgba(63, 128, 242, 1);
+  -moz-box-shadow: 1px -1px 31px -6px rgba(63, 128, 242, 1);
+  box-shadow: 1px -1px 31px -6px rgba(63, 128, 242, 1);
+  outline: none;
+}
+
+.form-title {
+  text-align: center;
+  font-size: 24px;
+  color: #4c4c4c;
+  font-weight: 400;
+}
+
+.text-form {
+  text-align: center;
+}
+
+label {
+  margin-bottom: 38px;
+}
+
+.conditions {
+  font-size: 9px;
+  margin-top: -34px;
+}
+
+.label-password {
+  position: relative;
+}
+
+.fa-lock-open {
+  position: absolute;
+  color: rgb(196, 195, 195);
+  top: 53%;
+  right: 4%;
+  font-size: 23px;
+}
+
+.bottom {
+  text-align: center;
+  color: #757575;
+  font-size: 15px;
+  font-style: italic;
+  line-height: 25px;
+  width: 84%;
+  margin: 31px auto;
+}
+
+.last {
+  background-color: #eceef1;
+  margin-bottom: -80px;
+  margin-left: -21px;
+  margin-right: -21px;
+  text-align: center;
+  font-size: 10px;
+  height: 49px;
+  padding-top: 21px;
+}
+
+footer {
+  display: grid;
+  margin: auto;
+  width: 728px;
+  color: #505050;
+  font-size: 12px;
+  padding: 30px 0 50px 0;
+  text-align: center;
+}
